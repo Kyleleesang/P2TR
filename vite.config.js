@@ -4,6 +4,7 @@ import { nodePolyfills } from 'vite-plugin-node-polyfills'
 import wasm from 'vite-plugin-wasm'
 
 export default defineConfig({
+  base: '/P2TR/',
   plugins: [
     wasm(),
     react(),
